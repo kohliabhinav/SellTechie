@@ -4,7 +4,7 @@
 	{% load static %}
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>Ecommerce::Project</title>
+	<title>SellTechie</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -52,9 +52,9 @@
 				<div class="col-md-2 col-xs-12">
 					<!-- Header Top Social -->
 					<div class="header-social">
-						<a href=""><i class="fa fa-facebook"></i></a>
+						<a href="https://facebook.com/abhinav.kohli.50"><i class="fa fa-facebook"></i></a>
 						<a href=""><i class="fa fa-twitter"></i></a>
-						<a href=""><i class="fa fa-linkedin"></i></a>
+						<a href="https://www.linkedin.com/in/abhinav-kohli-92b649172"><i class="fa fa-linkedin"></i></a>
 						<a href=""><i class="fa fa-google-plus"></i></a>
 					</div>
 				</div>
@@ -69,7 +69,7 @@
 					<div class="row">
 						<div class="col-md-3 col-lg-4 col-xs-12">
 							<!-- Header Logo -->
-							<div class="logo"><a href=""><img src="{% static 'img/logo.png' %}" alt="Logo" /></a></div>
+							<div class="logo" style="width:70px "><a href="/"><img src="{% static 'img/6.jpg' %}" alt="Logo" /></a></div>
 						</div>
 						<div class="col-md-3 col-xs-12">
 							<!-- Header Register Button -->
@@ -87,9 +87,9 @@
 											<div class="select-cat">
 												<select name="categorys">
 													<option value="volvo">All Category</option>
-													<option value="saab">Saab</option>
-													<option value="fiat">Fiat</option>
-													<option value="audi">Audi</option>
+													<option value="saab">Smartphones</option>
+													<option value="fiat">Laptops</option>
+													<option value="audi">Others</option>
 												</select>
 											</div>
 											<div class="input-filds">
@@ -162,121 +162,31 @@
 							<div class="mobile-menu">
 								<nav class="hidden">
 									<ul>
-										<li class="active"><a href="">HOME</a>
-											<ul class="sub-menu">
-												<li><a href="">HOME 1</a></li>
-												<li><a href="index-2.html">HOME 2</a></li>
-												<li><a href="index-3.html">HOME 3</a></li>
-												<li><a href="index-4.html">HOME 4</a></li>
-											</ul>
+										<li class="active"><a href="/">HOME</a>
+
 										</li>
-										<li><a href="about.html">ABOUT US</a></li>
+										<li><a href="{% url 'about' %}">ABOUT US</a></li>
 										<li><a href="shop.html">SHOP</a>
 											<ul>
-												<li><a href="shop.html">Dresses</a>
+												<li><a href="shop.html">Gadgets</a>
 												<ul>
-													<li><a href="shop.html">Cocktail</a></li>
-													<li><a href="shop.html">Day</a></li>
-													<li><a href="shop.html">Evening</a></li>
-													<li><a href="shop.html">Sweaters</a></li>
+													<li><a href="shop.html">Laptop</a></li>
+													<li><a href="shop.html">Tablet</a></li>
+													<li><a href="shop.html">Others</a></li>
 												</ul>
 												</li>
-												<li><a href="shop.html">Accessories</a>
+
+												<li><a href="shop.html">Electronics</a>
 												<ul>
-													<li><a href="shop.html">Lifestyle</a></li>
-													<li><a href="shop.html">Bras</a></li>
-													<li><a href="shop.html">Scarves</a></li>
-													<li><a href="shop.html">Small Leathers</a></li>
-												</ul>
-												</li>
-												<li><a href="shop.html">Tops</a>
-												<ul>
-													<li><a href="shop.html">T-Shirts</a></li>
-													<li><a href="shop.html">Shrot Sleeved</a></li>
-													<li><a href="shop.html">Sleeveless</a></li>
-													<li><a href="shop.html">Evening</a></li>
+													<li><a href="shop.html">Mobile</a></li>
+													<li><a href="shop.html">Watches</a></li>
 												</ul>
 												</li>
 											</ul>
 										</li>
-										<li><a href="shop.html">MEN</a>
-											<ul>
-												<li><a href="shop.html">Dresses</a>
-												<ul>
-													<li><a href="shop.html">Cocktail</a></li>
-													<li><a href="shop.html">Day</a></li>
-													<li><a href="shop.html">Evening</a></li>
-													<li><a href="shop.html">Sweaters</a></li>
-												</ul>
-												</li>
-												<li><a href="shop.html">Accessories</a>
-												<ul>
-													<li><a href="shop.html">Lifestyle</a></li>
-													<li><a href="shop.html">Bras</a></li>
-													<li><a href="shop.html">Scarves</a></li>
-													<li><a href="shop.html">Small Leathers</a></li>
-												</ul>
-												</li>
-												<li><a href="shop.html">Tops</a>
-												<ul>
-													<li><a href="shop.html">T-Shirts</a></li>
-													<li><a href="shop.html">Shrot Sleeved</a></li>
-													<li><a href="shop.html">Sleeveless</a></li>
-													<li><a href="shop.html">Evening</a></li>
-												</ul>
-												</li>
-											</ul>
-										</li>
-										<li><a href="shop.html">WOMEN</a>
-											<ul>
-												<li><a href="shop.html">Dresses</a>
-												<ul>
-													<li><a href="shop.html">Cocktail</a></li>
-													<li><a href="shop.html">Day</a></li>
-													<li><a href="shop.html">Evening</a></li>
-													<li><a href="shop.html">Sweaters</a></li>
-												</ul>
-												</li>
-												<li><a href="shop.html">Accessories</a>
-												<ul>
-													<li><a href="shop.html">Lifestyle</a></li>
-													<li><a href="shop.html">Bras</a></li>
-													<li><a href="shop.html">Scarves</a></li>
-													<li><a href="shop.html">Small Leathers</a></li>
-												</ul>
-												</li>
-												<li><a href="shop.html">Tops</a>
-												<ul>
-													<li><a href="shop.html">T-Shirts</a></li>
-													<li><a href="shop.html">Shrot Sleeved</a></li>
-													<li><a href="shop.html">Sleeveless</a></li>
-													<li><a href="shop.html">Evening</a></li>
-												</ul>
-												</li>
-											</ul>
-										</li>
-										<li><a href="shop.html">KIDS</a></li>
 										<li class="hot"><a href="shop.html">NEW ARRIVAL</a></li>
 										<li><a href="blog.html">BLOG</a></li>
-										<li><a href="index.html#">PAGES</a>
-											<ul>
-												<li><a href="about.html">ABOUT US</a></li>
-												<li><a href="checkout.html">CHECKOUT</a></li>
-												<li><a href="cart.html">CART</a></li>
-												<li><a href="contact.html">CONTACT</a></li>
-												<li><a href="shop.html">SHOP</a></li>
-												<li><a href="shop-list.html">SHOP LIST</a></li>
-												<li><a href="shop-left-sidebar.html">SHOP LEFT SIDEBAR</a></li>
-												<li><a href="shop-right-sidebar.html">SHOP RIGHT SIDEBAR</a></li>
-												<li><a href="product-details.html">PRODUCT DETAILS</a></li>
-												<li><a href="blog.html">BLOG</a></li>
-												<li><a href="blog-left-sidebar.html">BLOG LEFT SIDEBAR</a></li>
-												<li><a href="blog-right-sidebar.html">BLOG RIGHT SIDEBAR</a></li>
-												<li><a href="blog-details.html">BLOG DETAILS</a></li>
-												<li><a href="404.html">404</a></li>
-											</ul>
-										</li>
-										<li><a href="contact.html">CONTACT</a></li>
+										<li><a href="{% url 'contact' %}">CONTACT</a></li>
 									</ul>
 								</nav>
 							</div><!-- Mobile Menu End -->
@@ -291,64 +201,6 @@
 {% block body %}
 {% endblock %}
 <!-- Brands Area Start -->
-<div class="brands-area padding-70 fix">
-	<div class="container">
-		<div class="row">
-			<!-- Brands Area Title -->
-			<div class="col-xs-12">
-				<div class="section-title fix">
-					<h2>Our Brands</h2>
-				</div>
-			</div>
-			<div class="col-xs-12">
-				<!-- Brands Slider -->
-				<div class="brand-slider owl-carousel">
-					<!-- Single Brand -->
-					<div class="single-brand">
-						<img src="{% static 'img/brands/1.png' %}" alt="" />
-					</div>
-					<!-- Single Brand -->
-					<div class="single-brand">
-						<img src="{% static 'img/brands/2.png' %}" alt="" />
-					</div>
-					<!-- Single Brand -->
-					<div class="single-brand">
-						<img src="{% static 'img/brands/3.png' %}" alt="" />
-					</div>
-					<!-- Single Brand -->
-					<div class="single-brand">
-						<img src="{% static 'img/brands/4.png' %}" alt="" />
-					</div>
-					<!-- Single Brand -->
-					<div class="single-brand">
-						<img src="{% static 'img/brands/5.png' %}" alt="" />
-					</div>
-					<!-- Single Brand -->
-					<div class="single-brand">
-						<img src="{% static 'img/brands/6.png' %}" alt="" />
-					</div>
-					<!-- Single Brand -->
-					<div class="single-brand">
-						<img src="{% static 'img/brands/7.png' %}" alt="" />
-					</div>
-					<!-- Single Brand -->
-					<div class="single-brand">
-						<img src="{% static 'img/brands/8.png' %}" alt="" />
-					</div>
-					<!-- Single Brand -->
-					<div class="single-brand">
-						<img src="{% static 'img/brands/9.png' %}" alt="" />
-					</div>
-					<!-- Single Brand -->
-					<div class="single-brand">
-						<img src="{% static 'img/brands/10.png' %}" alt="" />
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div><!-- Brands Area End -->
-<!-- Service Area Start -->
 <div class="service-area padding-70 fix">
 	<div class="container">
 		<div class="row">
@@ -358,7 +210,6 @@
 					<div class="icon"><i class="fa fa-truck"></i></div>
 					<div class="text fix">
 						<h4>FREE SHIPPING</h4>
-						<p>on all orders over $90</p>
 					</div>
 				</div>
 			</div>
@@ -368,7 +219,6 @@
 					<div class="icon"><i class="fa fa-repeat"></i></div>
 					<div class="text fix">
 						<h4>RETURN EXCHANGE</h4>
-						<p>Return in 30 days use trial</p>
 					</div>
 				</div>
 			</div>
@@ -422,7 +272,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="footer-column col-sm-6 col-md-3 col-xs-12">
-				<a href="index.html#" class="logo-footer"><img src="{% static 'img/footer-logo.png' %}" alt=""></a>
+				<a href="index.html#" class="logo-footer"><img src="{% static 'img/6.jpg' %}" alt=""></a>
 				<div class="footer-content">
 					<p>Vestibulum sagittis, nisl nec pellentesque suscipit, arcu nisi maximus neque, vitae finibus erat odio eu lacus. Curabitur malesuada erat eros, quis dignissim dui accumsan id. Cras non imperdiet metus. Sed nec turpis nec.</p>
 					<a href="index.html#">Continus Reading &gt;&gt;</a>
@@ -462,9 +312,9 @@
 				</div>
 				<div class="footer-content">
 					<div class="footer-contact">
-						<p class="adress"><i class="fa fa-map-marker"></i><span>Addresss:</span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
-						<p class="email"><i class="fa fa-envelope"></i><span>Email:</span> admin@bootexpert.com</p>
-						<p class="phone"><i class="fa fa-phone"></i><span>Phone: +8801737803547</span></p>
+						<p class="adress"><i class="fa fa-map-marker"></i><span>Addresss:</span>Jaypee University of Engineering and Technology</p>
+						<p class="email"><i class="fa fa-envelope"></i><span>Email:</span> abhinavkohli77@gmail.com</p>
+						<p class="phone"><i class="fa fa-phone"></i><span>Phone: 8005117285</span></p>
 					</div>
 				</div>
 			</div>
@@ -479,7 +329,7 @@
 			<div class="col-xs-12 col-md-6">
 				<!-- Footer Copyright -->
 				<div class="copy-right">
-					<p>&copy; 2015 <a href="http://bootexperts.com/">BootExperts</a>, All Right Reserved</p>
+					<p>&copy; 2019 <a href="http://SellTechie.com/">SellTechie</a>, All Right Reserved</p>
 				</div>
 			</div>
 			<div class="col-xs-12 col-md-6">
